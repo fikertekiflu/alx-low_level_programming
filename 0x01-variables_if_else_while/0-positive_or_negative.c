@@ -30,8 +30,5 @@ int main(void)
                 printf("is negative\n");
         }
                                        
-
-      printf("\n");
-
-      return (0);
+        return (0);
 }
