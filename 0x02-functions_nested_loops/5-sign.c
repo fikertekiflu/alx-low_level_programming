@@ -5,7 +5,7 @@
  * print_sign - Prints the sign of a number
  * @n: The number to check the sign of
  *
- * Return: 1 if n is greater than zero, 0 if n is zero, -1 if n is less than zero
+ * Return: 1 if n is greater than 0, 0 if n is zero, -1 if n is less than 0
  */
 int print_sign(int n)
 {
