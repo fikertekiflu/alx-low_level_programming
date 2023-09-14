@@ -1,16 +1,19 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - Entry point of the program
- *
- * Return: Always 0 (Success)
+ * main - Entry point
+ * Return: Always 0
  */
 int main(void)
 {
-	const char str[] = "_putchar\n";
-	size_t len = sizeof(str) - 1;
-
-	write(1, str, len);
-
-	return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+         _putchar('\n');
+	 return (0);
 }
