@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Return: Always 0
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,6 +15,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-         _putchar('\n');
-	 return (0);
+	_putchar('\n');
+
+	return (0);
 }
