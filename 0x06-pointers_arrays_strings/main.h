@@ -7,3 +7,6 @@ char *string_toupper(char *);
 char *cap_string(char *);
 int is_separator(char c);
 char *leet(char *);
+void print_number(int n);
+int _putchar(char c);
+char *rot13(char *);
